@@ -1,4 +1,4 @@
-# DogsAge
+# Dog's Age
 
 App who calculte dog's age to humans age.
 
