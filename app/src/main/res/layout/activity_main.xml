@@ -10,4 +10,53 @@
     tools:context="idadedecachorro.cursoandroid.com.idadedecachorro.MainActivity"
     android:background="#00b9d5">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/cachorro" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/caixaTextoId"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Digite a idade do seu cachorro, para descobrir  a idade dele em anos humanos"
+        android:id="@+id/textView"
+        android:background="#4fc4d6"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descobrir_idade"
+        android:id="@+id/botaoIdadeId"
+        android:layout_below="@+id/caixaTextoId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/resultadoIdadeId"
+        android:layout_below="@+id/botaoIdadeId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:textColor="#ffffff" />
 </RelativeLayout>
